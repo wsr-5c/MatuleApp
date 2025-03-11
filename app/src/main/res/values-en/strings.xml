@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MatuleApp</string>
+    <string name="hello">Hello!</string>
+    <string name="fill_det">Fill in your details or continue via social media</string>
+    <string name="password">Password</string>
+    <string name="restore">Restore</string>
+    <string name="login">Log in</string>
+    <string name="are_u_new">Are you new to it?</string>
+    <string name="create">Create a user</string>
+    <string name="welcome">Welcome</string>
+
+</resources>
