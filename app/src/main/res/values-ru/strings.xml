@@ -1,13 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MatuleApp</string>
     <string name="hello">Привет!</string>
     <string name="fill_det">Заполните Cвои Данные Или Продолжите Через Социальные Медиа</string>
-    <string name="email" translatable="false">Email</string>
     <string name="password">Пароль</string>
     <string name="restore">Восстановить</string>
     <string name="login">Войти</string>
     <string name="are_u_new">Вы впервые?</string>
     <string name="create">Создать пользователя</string>
-    <string name="email_example" translatable="false">xyz@gmail.com</string>
-
 </resources>
