@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/caredViewdgs"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView83"
+        app:layout_constraintTop_toBottomOf="@+id/textView83">
+
+        <EditText
+            android:id="@+id/editTexteTexstdg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="14sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/raleway_medium"
+            android:inputType="text"
+            android:text="+7 811-732-5298"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageViews64dg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/profile_bird" />
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/market_menu_blue" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="53dp"
+            app:srcCompat="@drawable/h" />
+
+        <ImageView
+            android:id="@+id/heartBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="94dp"
+            android:layout_marginTop="52dp"
+            app:srcCompat="@drawable/menu_heart" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="256dp"
+            android:layout_marginTop="52dp"
+            app:srcCompat="@drawable/menu_cloack" />
+
+        <ImageView
+            android:id="@+id/profileBtnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="52dp"
+            app:srcCompat="@drawable/person_side_bar" />
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/caredViewdg"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView82"
+        app:layout_constraintTop_toBottomOf="@+id/textView82">
+
+        <EditText
+            android:id="@+id/editTexteTextdg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="14sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Nigeria"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView64dg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/profile_bird" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/caredViewd"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView81"
+        app:layout_constraintTop_toBottomOf="@+id/textView81">
+
+        <EditText
+            android:id="@+id/editTexteTextd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="14sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Oyiboke"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView64d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/profile_bird" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/caredView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView74"
+        app:layout_constraintTop_toBottomOf="@+id/textView74">
+
+        <EditText
+            android:id="@+id/editTexteText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="14sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Emmanuel"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/profile_bird" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:backgroundTint="@color/accent"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Сохранить"
+        android:textColor="@color/block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17"
+        app:srcCompat="@drawable/side_bar_avatar" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Emmanuel Oyiboke"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView63" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Изменить фото профиля"
+        android:textColor="@color/accent"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:text="Имя"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Фамилия"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/caredView"
+        app:layout_constraintTop_toBottomOf="@+id/caredView" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Адрес"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/caredViewd"
+        app:layout_constraintTop_toBottomOf="@+id/caredViewd" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Телефон"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/caredViewdg"
+        app:layout_constraintTop_toBottomOf="@+id/caredViewdg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

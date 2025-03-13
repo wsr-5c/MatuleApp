@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneOrderActivity">
+
+    <ImageView
+        android:id="@+id/imageView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/textView106"
+        app:layout_constraintTop_toBottomOf="@+id/textView106"
+        app:srcCompat="@drawable/card_checkout" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:tint="#661B1313"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView104"
+        app:srcCompat="@drawable/map"
+        tools:ignore="UseAppTint" />
+
+    <ImageView
+        android:id="@+id/imageView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView73"
+        app:layout_constraintEnd_toEndOf="@+id/imageView73"
+        app:layout_constraintStart_toStartOf="@+id/imageView73"
+        app:layout_constraintTop_toBottomOf="@+id/textView105"
+        app:srcCompat="@drawable/mark_checkout" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Посмотреть на карте"
+        android:textColor="@color/block"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView73"
+        app:layout_constraintStart_toStartOf="@+id/imageView73"
+        app:layout_constraintTop_toTopOf="@+id/imageView73" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout160rg"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout17">
+
+        <ImageView
+            android:id="@+id/imageView60g7rk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/order_botts" />
+
+        <TextView
+            android:id="@+id/textViewkg08r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="Nike Air Max 270 \nEssential" />
+
+        <TextView
+            android:id="@+id/textViewkg80r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="120dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="₽1200.10" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="198dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/raleway_medium"
+            android:text="2 ШТ" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="325556516"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imageView70"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout17"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView70">
+
+        <ImageView
+            android:id="@+id/imageView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/order_botts" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="7 мин назад"
+            android:textColor="@color/hint" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="Nike Air Max 270 \nEssential"
+            android:textColor="@color/text" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="120dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/raleway_medium"
+            android:text="₽814.15"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="198dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/raleway_medium"
+            android:text="1 ШТ"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="211dp"
+        android:text="Контактная информация"
+        android:textColor="@color/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout160rg" />
+
+    <ImageView
+        android:id="@+id/imageView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="@+id/textView98"
+        app:layout_constraintTop_toBottomOf="@+id/textView98"
+        app:srcCompat="@drawable/email_checkout" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="emmanuel@gmail.com"
+        android:textColor="@color/text"
+        app:layout_constraintStart_toEndOf="@+id/imageView69"
+        app:layout_constraintTop_toTopOf="@+id/imageView69" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Email"
+        android:textColor="@color/hint"
+        app:layout_constraintStart_toEndOf="@+id/imageView69"
+        app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView69"
+        app:layout_constraintTop_toBottomOf="@+id/imageView69"
+        app:srcCompat="@drawable/call_checkout" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="+234-811-732-5298"
+        android:textColor="@color/text"
+        app:layout_constraintStart_toEndOf="@+id/imageView72"
+        app:layout_constraintTop_toTopOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Телефон"
+        android:textColor="@color/hint"
+        app:layout_constraintStart_toEndOf="@+id/imageView72"
+        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Адрес"
+        app:layout_constraintStart_toStartOf="@+id/imageView72"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1082 Аэропорт, Нигерии"
+        android:textColor="@color/hint"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView103"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Способ оплаты"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView73"
+        app:layout_constraintTop_toBottomOf="@+id/imageView73" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:text="DbL Card"
+        app:layout_constraintStart_toEndOf="@+id/imageView75"
+        app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="**** **** 0696 4629"
+        android:textColor="@color/hint"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView75"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationActivity">
+
+    <FrameLayout
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout7"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout11"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout7">
+
+        <Button
+            android:id="@+id/button15x"
+            android:layout_width="45dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/background"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextText9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/text" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout11"
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout7"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout9"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout7">
+
+        <Button
+            android:id="@+id/button15s"
+            android:layout_width="45dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/background"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/text" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout9"
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout7"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout8"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout7">
+
+        <Button
+            android:id="@+id/button15r"
+            android:layout_width="45dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/background"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/text" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout8"
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout7"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout7"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout7">
+
+        <Button
+            android:id="@+id/button15q"
+            android:layout_width="45dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/background"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/text" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout7"
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout6"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout6"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout6">
+
+        <Button
+            android:id="@+id/button15z"
+            android:layout_width="45dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/background"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/text" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="OTP Проверка"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="Пожалуйста, Проверьте Свою Электронную Почту, Чтобы Увидеть Код Подтверждения"
+        android:textColor="@color/hint"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="229dp"
+        android:text="OTP Код"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout6"
+        android:layout_width="45dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="45dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/background"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/text" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="326dp"
+        android:text="Отправить заново"
+        android:textColor="@color/hint"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout6" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="00:30"
+        android:textColor="@color/hint"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView52" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

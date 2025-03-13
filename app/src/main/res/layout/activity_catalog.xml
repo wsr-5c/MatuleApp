@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/cardBoots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/boots_home" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="100dp"
+            android:text="BEST SELLER"
+            android:textColor="@color/accent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9sp"
+            android:layout_marginTop="124sp"
+            android:text="Nike Air Max"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="8dp"
+            android:text="₽752.00"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView101"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/plus_home" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/popular_heart" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:backgroundTint="@color/block"
+        android:text="Tennis"
+        android:textColor="@color/text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="@color/block"
+        android:text="Все"
+        android:textColor="@color/text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/accent"
+        android:text="Outdoor"
+        android:textColor="@color/block"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button7" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="12dp"
+        android:text="Outdoor"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Категории"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2312"
+        android:layout_width="160dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="204dp"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/boots_home" />
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="100dp"
+            android:text="BEST SELLER"
+            android:textColor="@color/accent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView127321"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9sp"
+            android:layout_marginTop="124sp"
+            android:text="Nike Air Max"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView138312"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="8dp"
+            android:text="₽752.00"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView103121"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/plus_home" />
+
+        <ImageView
+            android:id="@+id/imageViewcc20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/popular_heart" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVieew231"
+        android:layout_width="160dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="390dp"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/imageqiew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/boots_home" />
+
+        <TextView
+            android:id="@+id/textVieeqww13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="100dp"
+            android:text="BEST SELLER"
+            android:textColor="@color/accent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textVieqew127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9sp"
+            android:layout_marginTop="124sp"
+            android:text="Nike Air Max"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textVieqwew138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="8dp"
+            android:text="₽752.00"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageVieqew101"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/plus_home" />
+
+        <ImageView
+            android:id="@+id/imageVieqew20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/popular_heart" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card312View231"
+        android:layout_width="160dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/imag312eView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/boots_home" />
+
+        <TextView
+            android:id="@+id/textView31213"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="100dp"
+            android:text="BEST SELLER"
+            android:textColor="@color/accent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textVi1ew127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9sp"
+            android:layout_marginTop="124sp"
+            android:text="Nike Air Max"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textVi1ew138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="8dp"
+            android:text="₽752.00"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageVi2ew101"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/plus_home" />
+
+        <ImageView
+            android:id="@+id/imageV3iew20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/popular_heart" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardV231iew231"
+        android:layout_width="160dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="204dp"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/imageaView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/boots_home" />
+
+        <TextView
+            android:id="@+id/textViaew13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="100dp"
+            android:text="BEST SELLER"
+            android:textColor="@color/accent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViaew127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9sp"
+            android:layout_marginTop="124sp"
+            android:text="Nike Air Max"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textVieaw138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="8dp"
+            android:text="₽752.00"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageVieaw101"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/plus_home" />
+
+        <ImageView
+            android:id="@+id/imageVieaw20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/popular_heart" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewa231"
+        android:layout_width="160dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="392dp"
+        app:cardCornerRadius="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7">
+
+        <ImageView
+            android:id="@+id/imageVaiew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/boots_home" />
+
+        <TextView
+            android:id="@+id/textViaew123q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="100dp"
+            android:text="BEST SELLER"
+            android:textColor="@color/accent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textVieaw127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9sp"
+            android:layout_marginTop="124sp"
+            android:text="Nike Air Max"
+            android:textColor="@color/hint"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView1a38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="9dp"
+            android:layout_marginBottom="8dp"
+            android:text="₽752.00"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView1021"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/plus_home" />
+
+        <ImageView
+            android:id="@+id/imageView2a0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/popular_heart" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

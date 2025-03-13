@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#47B1E5"
+    tools:context=".SideMenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/side_bar" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/side_bar_avatar" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:text="Эмануэль Кверти"
+        android:textColor="@color/block"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+
+    <ImageView
+        android:id="@+id/profileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65"
+        app:srcCompat="@drawable/side_bar_profile" />
+
+    <ImageView
+        android:id="@+id/bagBtnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/profileBtn"
+        app:layout_constraintTop_toBottomOf="@+id/profileBtn"
+        app:srcCompat="@drawable/side_bar_bag" />
+
+    <ImageView
+        android:id="@+id/heartBtnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/bagBtnMenu"
+        app:layout_constraintTop_toBottomOf="@+id/bagBtnMenu"
+        app:srcCompat="@drawable/side_bar_heart" />
+
+    <ImageView
+        android:id="@+id/OrderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/heartBtnMenu"
+        app:layout_constraintTop_toBottomOf="@+id/heartBtnMenu"
+        app:srcCompat="@drawable/side_bar_orders" />
+
+    <ImageView
+        android:id="@+id/notificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/OrderBtn"
+        app:layout_constraintTop_toBottomOf="@+id/OrderBtn"
+        app:srcCompat="@drawable/side_bar_clock" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/notificationBtn"
+        app:layout_constraintTop_toBottomOf="@+id/notificationBtn"
+        app:srcCompat="@drawable/side_bar_setting" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView58"
+        app:layout_constraintTop_toBottomOf="@+id/imageView58"
+        app:srcCompat="@drawable/side_bar_line" />
+
+    <ImageView
+        android:id="@+id/outBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView60"
+        app:layout_constraintTop_toBottomOf="@+id/imageView60"
+        app:srcCompat="@drawable/side_bar_out" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
